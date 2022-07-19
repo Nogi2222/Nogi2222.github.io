@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta name="auther" content="Ryuta Nogi">
+    <meta name="keywords" content="「人生」の最適化">
+    <title>行動の最適化</title>
+</head>
+
+<body>
+    <h1 id="top">人生の最適化</h1>
+
+    <section>
+        
+        <h2>第4章「人生」の最適化</h2>
+
+
+        <nav id="menu_1">
+
+            <ul>
+
+                <li>健康,愛,成功,お金のバランスが大事</li>
+                
+
+            </ul>
+        </nav>
+
+        <h2>「幸福」の最適化</h2>
+        <div class="flex-container">
+
+            <main>
+
+                <h2>幸福とは脳内物質の分泌</h2>
+                <blockquote>
+                    <p>
+                        私たちが幸せを感じるとき,セロトニン,オキシトシン,ドーパミン
+                        という３つの脳内物質が分泌されている.つまり,これらの脳内物質を分泌されることができれば,
+                        誰でも幸せになれるという.
+                    </p>
+                    <p>
+                        3つの幸福物質に関して
+                    </p>
+                    <p>
+
+                        セロトニン的幸福(健康の幸福),オキシトシン的幸福(愛・つながりの幸福),
+                        ドーパミン的幸福(お金・成功の幸福)の3つが存在する.
+                    </p>
+                    <p>
+
+                        幸せになるためには幸福を築き上げる順番が重要.
+                    </p>
+                        
+                    <p>「健康」＞「つながり」＞「成功」の順番で重要である.</p>
+
+                </blockquote>
+            </main>
+
+            
+        </div>
+        <div>
+            <h2 onclick="RH(5)">3つの幸福物質に関して</h2>
+
+            <button type="button" onclick="RH(1)">セロトニン的幸福</button>
+        
+            <button type="button" onclick="RH(2)">オキシトシン的幸福</button>
+        
+            <button type="button" onclick="RH(3)">ドーパミン的幸福</button>
+            <p id="RH"></p>
+        </div>
+        
+        <!-- <h3>セロトニン的幸福</h3> -->
+        <!-- <div>
+            <aside>
+                <blockquote>
+                    <p>
+                        セロトニン的幸福とは一言でいうと「心と身体の健康」という.
+                    </p>
+                </blockquote>
+            </aside>
+        </div> -->
+
+        <!-- <h3>オキシトシン的幸福</h3>
+        <div>
+            <aside>
+                <blockquote>
+                    <p>
+                        オキシトシン的幸福とは一言でいうと「つながり」の幸福という.
+                    </p>
+                </blockquote>
+            </aside>
+        </div> -->
+
+        <!-- <h3>ドーパミン的幸福</h3>
+        <div>
+            <aside>
+                <blockquote>
+                    <p>
+                        ドーパミン的幸福とは一言でいうと「お金や成功の幸福」という。
+                    </p>
+                </blockquote>
+            </aside>
+        </div> -->
+
+        
+
+        <div>
+            
+            <table border="1">
+                <!-- tr:行を表すタグ -->
+                <tr>
+                    <!--th:見出し用セル  -->
+                    <th></th>
+                <th colspan="3">分泌が起こるとき</th>
+                <!-- <th>2列目</th>
+                <th>3列目</th> -->
+            </tr>
+            <tr>
+                <th>セロトニン的幸福</th>
+                <!-- td:通常のセル -->
+                <td colspan="3">朝散歩→太陽の光を浴びる　よく噛んで食べること　
+                    運動→ウォーキング
+                </td>
+                <!-- <td>1-2</td>
+                <td>1-3</td> -->
+            </tr>
+            <tr>
+                <th>オキシトシン的幸福</th>
+                <!-- td:通常のセル -->
+                <td colspan="3">感謝「ありがとう」感謝日記　安定した人間関係→「人とのつながり」
+                    親切・他者貢献
+                </td>
+                <!-- <td>2-2</td>
+                <td>2-3</td> -->
+            </tr>
+            <tr>
+                <th>ドーパミン的幸福</th>
+                <!-- td:通常のセル -->
+                <td colspan="3">目標設定　瞑想　好きな音楽を聞く　
+                    有酸素運動　
+                </td>
+                <!-- <td>3-2</td>
+                <td>3-3</td> -->
+            </tr>
+            </table>
+        </div>
+
+
+        
+        <h2>「人生」の最適化</h2>
+        <div class="flex-container">
+
+            <main>
+
+                <h2>成長と成功は指数関数的に訪れる</h2>
+                <blockquote>
+                    <p>
+                       多くの人は,50の努力をしたら50の結果が出ると思っているが,
+                       実際は50の努力をしても10くらいの結果しかでない.
+                    </p>
+                    <p>このギャップが精神的な「焦り」「不安」の原因である.</p>
+                    <p>しかし,そこで諦めずに頑張り続けると最後に飛躍的な結果が出る.</p>
+                    <p>
+                        これが成長曲線である.
+                    </p>
+                    
+                    
+
+                </blockquote>
+            </main>
+
+            
+        </div>
+
+        <div>
+            <h5 id="money">『成長曲線』</h5>
+        </div>
+
+        <div style="position: relative;width: 570px;height: 450px;">
+            <!-- グラフを描画したい場所にcanvasタグを用意する -->
+            <canvas id="myChart"></canvas>
+            <p>x軸: 時間と努力の量、y軸: 成長・結果</p>
+            <p>※注: y軸の値は無視してください. </p>
+        
+        </div>
+        <div>
+            
+            <p>はじめから結果を出そうとせず,地道に努力していけば急に結果が出はじめる瞬間が
+                来るのでそこまで頑張りましょう.
+            </p>
+            <p>勉強,スポーツなどをするときは「成長曲線」を意識しよう.</p>
+        </div>
+        <h5 id="money-1">『エビングハウスの忘却曲線』</h5>
+        <diV>
+            <h3>誤解されがち？</h3>
+            <p>グラフ全体を見ると反比例の形をしているため,
+                忘れやすさを表したグラフと認識している方が多いだろう.
+            </p>
+        </diV>
+        <div style="position: relative;width: 570px;height: 450px;">
+            <!-- グラフを描画したい場所にcanvasタグを用意する -->
+            <canvas id="myChart2"></canvas>
+            <p>x軸: 時間　y軸:  節約率(%)</p>
+            
+        </div>
+
+        <div>
+            <p>しかし, 実はエビングハウスの忘却曲線が表していることは, 
+                時間による記憶量の変化ではない.この点は誤解しやすいポイントだ.
+                縦軸に使用されている節約率の意味を正しく理解しておこう.
+            </p>
+        </div>
+        <h6>節約率とは？</h6>
+        <div>
+            <p>節約率とは, 忘れた知識を再び記憶しようとした場合に, 
+                はじめと比べて「どれくらい時間を節約できているか？」を表す数値のことだ.
+                エビングハウスの忘却曲線から読み取ったデータを活用しながら, 
+                説明していく.
+            </p>
+            <p>
+                例えば, Aさんが英単語を10個記憶するのに約10分かかるとする.
+                多くの人は1日立てばほとんど忘れているだろう.
+            </p>
+            <p>しかし, Aさんが1日後に同じ英単語10個を記憶しようとすると約7分36秒(7.6分)で記憶できたとする.
+                このとき, 初めて記憶してときと比べて約3分24秒(10分-7.6分)節約できた.
+                これを割合に換算すると34%(3.4分÷10分×100)になる.
+            </p>
+
+            <p><a href="#top">トップに戻る</a></p>
+        </div>
+
+    </section>
+    
+    <div>
+        <h4>外部リンク</h4>
+
+        <div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="../morning/index.html">第1章「朝」の最適化</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div>
+            <nav id="menu-1">
+                <ul>
+                    <li><a href="../lunch/index.html">第2章「昼」の最適化</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div>
+            <nav id="menu-2">
+                <ul>
+                    <li><a href="../night/index.html">第3章「夜」の最適化</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+
+    <div>
+        <p>参考にした書籍は「今日がもっと楽しくなる行動最適化大全」</p>
+    </div>
+
+    <div>
+        <h4>参考文献</h4>
+        <blockquote>
+            <p><cite>
+                    著者:樺沢紫苑
+                    「今日がもっと楽しくなる行動最適化大全」
+                    ~ベストタイムにベストルーティーンで常に「最高の1日」を作り出す~,
+                    株式会社KADOKAWA発行,
+                    2021年7月8日,
+
+                </cite>
+            </p>
+
+            
+        </blockquote>
+        <blockquote>
+            
+            <p><cite>
+                    著者: THE OWNER
+                    エビングハウスの忘却曲線とは？　本来の意味やビジネスへの賢い活用法を解説
+                    2021/11/02
+                    <p><cite>https://the-owner.jp/archives/6006</cite></p>
+
+                    
+                </cite>
+            </p>
+
+        </blockquote>
+    </div>
+
+
+    <footer>
+        Copyright &copy; Ryuta Nogi, All Rights Reserved.
+    </footer>
+
+    <!-- 外部のjavascriptを読み込む -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.js"
+        integrity="sha512-5m2r+g00HDHnhXQDbRLAfZBwPpPCaK+wPLV6lm8VQ+09ilGdHfXV7IVyKPkLOTfi4vTTUVJnz7ELs7cA87/GMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- 自分のjavascriptファイル -->
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/chart.js"></script>
+
+
+</body>
+
+</html>

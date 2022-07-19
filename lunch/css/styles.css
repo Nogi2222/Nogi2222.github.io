@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+html {
+    font-size: 64px;
+    background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8))
+}
+
+
+body {
+    font-size: 20px;
+
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+    cursor: pointer;
+}
+
+h2 {
+    /* color: orangered; */
+    /* border: 1px solid #666666;
+
+    border-bottom-right-radius: 100px;
+
+    background: linear-gradient(#FFFFFF,#6cbe30); */
+    font-size: 25px;
+    text-align: center;
+    color:aliceblue;
+    cursor: pointer;
+    
+}
+h2:hover {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 25px;
+    color:aliceblue;
+    text-align: center;
+    cursor: pointer;
+
+}
+h3:hover {
+    font-size: 2em;
+}
+h4 {
+    font-size: 25px;
+    color:aliceblue;
+    margin-left: 5%;
+    line-height: 10%;
+   
+}
+h5 {
+    font-size: 25px;
+    color:aqua;
+}
+h5:hover {
+    font-size: 2em;
+}
+a {
+    
+    text-decoration: none;
+}
+
+#menu > ul > li {
+    list-style:none;
+    
+    /* border: 1px solid #666666;
+
+    border-bottom-right-radius: 100px;
+
+    background: linear-gradient(#FFFFFF,greenyellow); */
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+#menu-1 > ul >li {
+    display: inline;
+    
+    margin: 0 16px 0 0;
+    
+    padding: 4px;
+    
+    border: 1px solid #666666;
+    
+    border-radius: 10px;
+    
+    /* background: linear-gradient(#FFFFFF,#444444); */
+    background: linear-gradient(#17d9f3,#1ddb7f);
+}
+
+#menu-2 > ul >li {
+    display: inline;
+    
+    margin: 0 16px 0 0;
+    
+    padding: 4px;
+    
+    border: 1px solid #666666;
+    
+    border-radius: 10px;
+    
+    /* background: linear-gradient(#FFFFFF,#444444); */
+    background: linear-gradient(#17d9f3,#1ddb7f);
+}
+
+#menu-3 > ul >li {
+    display: inline;
+    
+    margin: 0 16px 0 0;
+    
+    padding: 4px;
+    
+    border: 1px solid #666666;
+    
+    border-radius: 10px;
+    
+    /* background: linear-gradient(#FFFFFF,#444444); */
+    background: linear-gradient(#17d9f3,#1ddb7f);
+}
+li:hover {
+    font-size: 1.2em;
+}
+
+
+.flex-container {
+    
+    display:inline-flex;
+    
+     
+}
+
+main  {
+    margin: 0 10px;
+    padding: 0 8px;
+    background: linear-gradient(#a1cc06,#17f317);
+    border-radius: 10px;
+    flex: 1 50px;
+    order: 1;
+    cursor: pointer;
+    
+}
+
+aside {
+    margin: 0 10px;
+    padding: 0 8px;
+    background: linear-gradient(#1ddb7f,#17d9f3);
+    border-radius: 10px;
+    flex: 1 50px;
+    order: 1;
+    cursor: pointer;
+}
+
+#top {
+    color:brown ;
+}
+
+/* p::first-letter {
+    font-size: 2em;
+    color: darkred;
+} */
+
+p:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+
